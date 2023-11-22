@@ -41,37 +41,73 @@ body{
 .search_bar input{}
 .search_bar i{}
 
+/* ********row 2************** */
 #row2{
-    height:500px;
-    width:100%;
-    border-image: url(../image/download.jpg);
+    height: 500px;
+    width: 100%;
+    background-image: url(../build.jpeg);
     background-repeat: no-repeat;
-    block-size: cover;
+    background-size: cover;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .banner_section{
-    width:70%;
-    color:aliceblue;
-
+    width: 70%;
+    color: #fff;
+    text-align: center;
 }
 .banner_section h1{
     font-size: 40px;
     text-transform: uppercase;
-    text-align: 20px;
-}
+    text-align: center;
 
+}
 .banner_section p{
-    padding-bottom: 20px;
     text-align: justify;
+    padding-bottom: 20px;
 }
-
 .banner_section button{
-padding: 10px;
-background-color: #fff;
-border: none;
-border-radius: 10px;
-text-align: center;
-display: block;
-}
+    padding: 10px;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 10px;
+    
+}#row3{
+    height: 360px;
+    background-color: #fff;
 
+}
+.service_section{}
+.service_section h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.service_container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service_item{
+    text-align: center;
+
+}
+.service_item i{
+    height: 80px;
+    width: 80px;
+    background-color: skyblue;
+    border-radius: 50%;
+    line-height: 80px;
+    font-size: 30px;
+}
+.service_item h3{
+    padding-top: 20px;
+
+}
+.service_item p{
+    text-align: center;
+}
